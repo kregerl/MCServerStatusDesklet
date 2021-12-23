@@ -1,0 +1,17 @@
+{
+    "top": {
+        "type": "header",
+        "description": "MC Server Status Desklet Settings"
+    },
+    "serverIp": {
+        "type": "entry",
+        "default": "",
+        "description": "Server IP",
+        "tooltip": "Enter the server ip or hostname"
+    },
+    "showUUID": {
+        "type": "switch",
+        "default": true,
+        "description": "Show the UUID of connected players"
+    }
+}

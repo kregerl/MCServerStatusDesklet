@@ -1,0 +1,6 @@
+{
+    "uuid": "mcstatus@loucaskreger",
+    "name": "Minecraft Server Status",
+    "description": "Displays the current status of a given Minecraft server.",
+    "prevent-decorations": false
+}
