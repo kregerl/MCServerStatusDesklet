@@ -75,9 +75,9 @@ MinecraftServerStatus.prototype = {
         }
         if (this.response.players) {
             // Store players in a list until user wants to see them
+            this.players = [];
             let playerCountStr = `Players (${this.response.players.online}/${this.response.players.max}):`;
             if (this.response.players.list) {
-                this.players = [];
                 for (let i = 0; i < this.response.players.online; i++) {
                     this.players.push(this.response.players.list[i]);
                 }
